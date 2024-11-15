@@ -51,7 +51,7 @@ class TwitterComplaintBot:
 
         email = self.driver.find_element(By.CSS_SELECTOR, "input[name='text']")
         email.click()
-        email.send_keys("ramya181106@gmail.com")
+        email.send_keys("example.gmail.com")
         time.sleep(5)
 
         try:
@@ -68,19 +68,19 @@ class TwitterComplaintBot:
         try:
             password = self.driver.find_element(By.CSS_SELECTOR, "input[name='password']")
             password.click()
-            password.send_keys("Abc123**")
+            password.send_keys("Example")
             time.sleep(2)
         except NoSuchElementException:
             username = self.driver.find_element(By.CSS_SELECTOR, "input[name='text']")
             username.click()
-            username.send_keys("Ramyaa_6")
+            username.send_keys("Example")
             time.sleep(3)
             next_btn2 = self.driver.find_element(By.CSS_SELECTOR, "button[class='css-175oi2r r-sdzlij r-1phboty r-rs99b7 r-lrvibr r-19yznuf r-64el8z r-1fkl15p r-1loqt21 r-o7ynqc r-6416eg r-1ny4l3l']")
             next_btn2.click()
             time.sleep(5)
             password = self.driver.find_element(By.CSS_SELECTOR, "input[name='password']")
             password.click()
-            password.send_keys("Abc123**")
+            password.send_keys("Example")
             time.sleep(2)
 
         login_btn = self.driver.find_element(By.CSS_SELECTOR, "button[class='css-175oi2r r-sdzlij r-1phboty r-rs99b7 r-lrvibr r-19yznuf r-64el8z r-1fkl15p r-1loqt21 r-o7ynqc r-6416eg r-1ny4l3l']")
