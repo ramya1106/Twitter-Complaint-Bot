@@ -41,17 +41,15 @@ Install Selenium using:
 
 ### 3. Edit Script
 
-    # Replace placeholders with your Twitter credentials:
-
-# Replace the email placeholder
+   # Replace placeholders with your Twitter credentials:
 
     email.send_keys("your_email_here@gmail.com")  
     
-    # Replace the username and password placeholders
+   # Replace the username and password placeholders
     username.send_keys("your_twitter_username")  
     password.send_keys("your_password")
     
-    # Adjust the PROMISED_DOWN and PROMISED_UP variables as per your internet plan
+   # Adjust the PROMISED_DOWN and PROMISED_UP variables as per your internet plan
     PROMISED_DOWN = 200  # Replace with your promised download speed
     PROMISED_UP = 10     # Replace with your promised upload speed
 
