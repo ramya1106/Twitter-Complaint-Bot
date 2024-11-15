@@ -30,14 +30,15 @@ Install Selenium using:
 ## Setup Instructions
 
 ### 1. Download ChromeDriver
-    - Ensure you have Google Chrome installed.
-    - Download ChromeDriver that matches your browser version from:
-      https://chromedriver.chromium.org/downloads
+   - Ensure you have Google Chrome installed.
+   - Download ChromeDriver that matches your browser version from:
+
+         https://chromedriver.chromium.org/downloads
 
 ### 2. Update Paths
 
-    - Place ChromeDriver in a directory included in your system PATH.
-    - Alternatively, provide the explicit path in the script if ChromeDriver is located elsewhere.
+   - Place ChromeDriver in a directory included in your system PATH.
+   - Alternatively, provide the explicit path in the script if ChromeDriver is located elsewhere.
 
 ### 3. Edit Script
 
@@ -57,10 +58,10 @@ Install Selenium using:
 
 ### 1. Use Responsibly
 
-    - Ensure you comply with the terms and conditions of Twitter while using this script.
+   - Ensure you comply with the terms and conditions of Twitter while using this script.
 
 ### 2. Credentials Safety
 
-    - Avoid sharing your credentials with others.
-    - Consider implementing a secure method to handle credentials, such as environment variables or a configuration file.
+   - Avoid sharing your credentials with others.
+   - Consider implementing a secure method to handle credentials, such as environment variables or a configuration file.
 
